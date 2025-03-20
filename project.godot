@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Spectator_"
-run/main_scene="uid://p1qeb1cd6qrc"
+run/main_scene="uid://5jlbbnoxaj8o"
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [dotnet]
 

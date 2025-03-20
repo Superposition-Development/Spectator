@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://booberkfqnyc1"]
+[gd_scene load_steps=7 format=3 uid="uid://p1qeb1cd6qrc"]
 
 [ext_resource type="Script" uid="uid://uthlxgfgtkls" path="res://Scripts/Player.cs" id="1_a202f"]
 
@@ -29,7 +29,6 @@ shadow_enabled = true
 environment = SubResource("Environment_a0tk4")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.66124, 0)
 angular_velocity = Vector3(0, 0.0174533, 0)
 script = ExtResource("1_a202f")
 
@@ -47,7 +46,7 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 
 current = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(-21.2726, 0, 0, 0, 1, 0, 0, 0, 26.7008, 0, -2.49347, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.49347, 0)
 use_collision = true
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="."]
