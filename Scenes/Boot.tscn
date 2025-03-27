@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://5jlbbnoxaj8o"]
 
-[ext_resource type="VideoStream" uid="uid://upg26eel2yhe" path="res://Assets/Image/boot.ogv" id="1_0kqyt"]
+[ext_resource type="VideoStream" uid="uid://b2v4bcojlhj1v" path="res://Assets/Image/boot.ogv" id="1_0kqyt"]
 [ext_resource type="Script" uid="uid://c1nbftsvdmqjv" path="res://Scripts/Boot.cs" id="1_tmp6q"]
 
 [node name="Control" type="Control"]
@@ -28,6 +28,7 @@ layout_mode = 2
 stream = ExtResource("1_0kqyt")
 autoplay = true
 expand = true
+bus = &"Boot"
 metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
